@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./output.css" rel="stylesheet">
+	<script src="script.js"></script>
+	<title>2048</title>
+</head>
+
+<body>
+	<div class="flex items-center justify-center w-full h-full">
+
+		<div class="space-y-5">
+			<p class="text-[#e7dfdf] text-4xl font-bold text-center w-full">2048 Game</p>
+			<hr class="h-1 bg-white rounded-full">
+			<div class="flex justify-between items-center text-xl font-semibold text-gray-400">
+				<p>Score: <span id="score">0</span></p>
+				<p>HighScore: <span id="highscore">0</span></p>
+			</div>
+			<div id="board"
+				class="grid grid-cols-4 gap-2 p-2 h-[400px] w-[400px] text-center bg-[#bbada0] font-bold text-2xl">
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>
